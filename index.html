@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="A fat free flat responsive corporate agency templae">
+    <meta name="keywords" content="Agency, Corporate, Flat, Responsive">
+
+    <title>Model-A Media - Web Development and Videography</title>
+	
+	<!-- Font used in the center of the video -->
+	<style>
+	@import url('assets/css/BebasNeue.otf');
+	</style>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/ionicons/css/ionicons.css">
+    <link rel="stylesheet" href="assets/lib/owlcarousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/lib/owlcarousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/lib/FlexSlider/flexslider.css">
+    <link rel="stylesheet" href="assets/lib/magnific-popup/dist/magnific-popup.css"/>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,300,400">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/ie_fix.css">
+	
+	<!-- Javascript Files -->
+    <script src="assets/lib/components-modernizr/modernizr.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav-collapse" data-offset="100">
+	<div class="page-loader">
+		<div class="loader">Loading...</div>
+	</div>
+	
+	<!-- Fixed Top Navigation -->
+	<nav id="fixedTopNav" class="navbar navbar-fixed-top main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+    	<div class="container">
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                	<span class="sr-only">Toggle navigation</span>
+                	<span class="ion-drag"></span>
+            	</button>
+
+            	<!-- Logo -->
+            	<div class="navbar-brand" itemscope itemtype="https://schema.org/Organization">
+					<a itemprop="url" href="index.html">
+						Model-A Media
+					</a>
+            	</div>
+
+        	</div><!-- /.navbar-header -->
+
+        	<!-- Navigation Links -->
+        	<div class="collapse navbar-collapse" id="main-nav-collapse">
+           		<ul class="nav navbar-nav navbar-right">
+					
+					<li>
+						<a href="index.html" itemprop="url">
+                    		<span itemprop="name">Home</span>
+                		</a>
+					</li>
+					
+					<!-- Navigation - Services Dropdown -->
+                	<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Services</span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="webdesignservices.html">Web Design</a>
+							</li>
+							<li>
+								<a href="videographyservices.html">Videography</a>
+							</li>
+						</ul>
+					</li>
+					<!-- End of Services Dropdown -->
+					
+                	<li>
+						<a href="#about-us" itemprop="url">
+                    		<span itemprop="name">About Us</span>
+                		</a>
+					</li>
+					
+					<!-- Navigation - Portfolio Dropdown -->
+                	<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Portfolio</span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="about_us.html">Websites</a>
+							</li>
+							<li>
+								<a href="services.html">Videos</a>
+							</li>
+						</ul>
+					</li>
+					<!-- End of Portfolio Dropdown -->
+					
+                	<li>
+						<a href="#contact" itemprop="url">
+                    		<span itemprop="name">Contact</span>
+                		</a>
+					</li>
+            	</ul>
+       		</div> <!-- End of navigation links -->
+    	</div> <!-- End of container -->
+	</nav> <!-- End of navigation -->
+
+	<!-- Header -->
+	<header id="header" class="header-wrapper home-parallax home-fade dark-bg bg-10">
+
+		<!-- Function to load video AFTER the HTML -->
+		<!-- Purpose: Prevent long loading times caused by the background video -->
+		<div id="videoBackground"
+			 class="overlay"
+			 data-property="{
+							videoURL:'https://www.youtube.com/watch?v=LuXAl-BHoQ4',
+							containment:'.header-wrapper',
+							startAt:0,
+							stopAt:14,
+							mute:true,
+							autoPlay:true,
+							loop:true,
+							opacity:1,
+							showControls:false,
+							showYTLogo:false,
+							vol:25}">
+		</div>
+		<!-- Background Youtube player end -->
+
+		<!-- Youtube controls start-->
+		<div class="video-controls-box">
+			<div class="container">
+				<div class="video-controls">
+					<!-- Video sound toggle button <a id="video-volume" class="fa fa-volume-up" href="#">&nbsp;</a> -->
+					<a id="video-play" class="fa fa-pause" href="#">&nbsp;</a>
+				</div>
+			</div>
+		</div>
+		<!-- End of Function -->
+
+
+    	<div class="color-overlay"></div>
+    	<div class="header-wrapper-inner">
+        	<div class="container">
+				<div class="intro">
+                	<h1 id="mainHeader">MODEL-A MEDIA</h1>
+                	<p>Maine-based Web Design and Videography Company</p>
+                	<a href="#why-choose-us" class="btn btn-default-o onPageNav">Learn More</a>
+            	</div><!-- End of intro -->
+			</div><!-- End of container -->
+    	</div><!-- End of inner header wrapper -->
+	</header> <!-- End of header -->
+	
+	<!-- Why-choose-us -->
+	<section id="why-choose-us" class="section why-choose-us">
+		<div class="container">
+			<header class="section-heading">
+				<h2>Why Choose Us</h2>
+				<span>Choosing an agency is tough. Let us convince you.</span>
+			</header>
+
+			<div class="section-content">
+				<div class="row">
+					<div class="col-sm-4 why-explain-wrap">
+
+						<!-- why-choose-us-text -->
+						<h4>Responsive Design</h4>
+						<div class="why-explain top top-1">
+							<p>Every website we create reacts quickly and positively to different screen sizes automatically</p>
+						</div>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+					<div class="col-sm-4 why-explain-wrap">
+
+						<!-- why-choose-us-text -->
+						<h4>Clean Code</h4>
+						<div class="why-explain top top-2">
+							<p>Our code is guarenteed to be clean and readible so that you can easily maintain it</p>
+						</div>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+					<div class="col-sm-4 why-explain-wrap">
+
+						<!-- why-choose-us-text -->
+						<h4>Latest features</h4>
+						<div class="why-explain top top-3">
+							<p>We use the latest features of HTML5, CSS3, and Bootstrap4</p>
+						</div>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+				</div><!-- row -->
+
+				<!-- why-choose-us-image -->
+				<figure class="why-us-image">
+					<img class="img-responsive center-block hidden-xs" src="assets/images/why-choose-us/1.png" alt="Why Choose Model A Media">
+				</figure>
+
+				<div class="row">
+
+					<div class="col-sm-4 why-explain-wrap">
+
+						<!-- why-choose-us-text -->
+						<div class="why-explain bottom bottom-1">
+							<h4>24/7 Support</h4>
+						</div>
+						<p>
+							Have a question during your project? We're always available via <a href="mailto:modelamiane@gmail.com">modelamaine@gmail.com</a>
+
+						</p>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+					<div class="col-sm-4 why-explain-wrap">
+
+						<!-- why-choose-us-text -->
+						<div class="why-explain bottom bottom-2">
+							<h4>Web Hosting</h4>
+						</div>
+						<p>
+							We'll help you find hosting for your new website at no extra cost to you
+						</p>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+					<div class="col-sm-4 why-explain-wrap last">
+
+						<!-- why-choose-us-text -->
+						<div class="why-explain bottom bottom-3">
+							<h4>Dedicated</h4>
+						</div>
+						<p class="last">
+							We won't finish a project until we know you are happy with it
+						</p>
+
+					</div><!-- col-md-4 col-sm-6 -->
+
+				</div><!-- row -->
+			</div><!-- section-content -->
+		</div><!-- container -->
+	</section>
+	<!-- /Why-choose-us -->
+	
+	<!-- Watch our latest video section -->
+	<section id="video" class="section video-player dark-bg">
+    	<div class="color-overlay"></div>
+			<div class="container" id="video-info">
+				<div class="row">
+
+					<div class="col-sm-5">
+						<!-- video-left -->
+						<div class="video-left">
+							We Create<br>Specialized Videos
+						</div>
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-2">
+						<!-- Play Button -->
+						<a id="playVideo" href="#" class="btn video-icon">
+							<i class="ion-ios-play-outline"></i>
+						</a>
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-5">
+						<!-- video-right -->
+						<div class="video-right">
+							Latest Release //<br>Hands To Help 2017 <br>Lawrence, MA
+						</div>
+					</div><!-- col-sm-4 -->
+
+			</div><!-- End of row -->
+		</div><!-- End of container -->
+	</section> <!-- End of section -->
+	
+	<!-- Container that displays the YouTube video -->
+	<div class="container" id="video-container">
+    	<div class="row">
+        	<div class="col-md-8 col-md-offset-2">
+            	<div id="ytPlayer" class="embed-responsive embed-responsive-16by9">
+               	 	<iframe  class="embed-responsive-item" title="YouTube video player" src="https://www.youtube.com/embed/JF4FO6j5xpI?enablejsapi=1" allowfullscreen></iframe>
+            	</div> <!-- End of YouTube player -->
+        	</div>
+    	</div>
+	</div>
+
+	<!-- Services -->
+	<section id="services" class="section services">
+    	<div class="container">
+
+        	<header class="section-heading">
+            	<h2>Our Services</h2>
+            	<span>What we do</span>
+        	</header>
+
+        	<div class="section-content">
+            	<div class="row">
+					
+					<!-- First service -->
+                	<div class="col-sm-6">
+                    	<!-- service -->
+                    	<div class="service">
+                        	<div class="service-icon text-center">
+                            	<span class="ion-ios-albums-outline"></span>
+                        	</div>
+                        	<div class="about-service">
+								<h4 class="text-center">Web Development</h4>
+								<p class="text-center">We build modern, mobile-friendly websites for any type of business. We build from HTML5, CSS3, Bootstrap 4, and more templates and coding languages to bring you the latest features and functionalities.</p>
+							</div>
+                    	</div>
+                	</div><!-- col-sm-4 -->
+
+					
+					<!-- Second service -->
+                	<div class="col-sm-6">
+						<!-- service -->
+						<div class="service">
+							<div class="service-icon text-center">
+								<span class="ion-ios-videocam-outline"></span>
+							</div>
+                        	<div class="about-service">
+                            	<h4 class="text-center">Videography</h4>
+                            	<p class="text-center">
+                                	Model A Media offers an array of video production services for all purposes including commercial and entertainment.
+                            	</p>
+                        	</div>
+                    	</div>
+                	</div><!-- col-sm-4 -->
+					
+				</div><!-- End of row -->
+			</div><!-- End of section content -->
+		</div><!-- End of container -->
+	</section>
+	<!-- End of services -->
+	
+	<hr>
+	
+	<!-- Portfolio Section-->
+	<section id="portfolio" class="section portfolio">
+    	<div class="container">
+        	<header class="section-heading">
+            	<h2>Recent Projects</h2>
+            	<span>See what we've been working on</span>
+        	</header>
+			<div class="section-content">
+				<div class="main_content">
+					<div class="isotop-filter" id="filters">
+						<button type="button" class="btn btn-isotop is-checked" data-filter="*">All</button>
+						<button type="button" class="btn btn-isotop" data-filter=".website">Websites</button>
+						<button type="button" class="btn btn-isotop" data-filter=".video">Videos</button>
+					</div>
+				</div>  <!-- main_content -->
+			</div>
+    	</div>
+        <div class="portfolio-grid">
+            <ul id="da-thumbs" class="da-thumbs isotope">
+            	<li data-category="video" class="video">
+                	<a href="campuskitchen.html">
+						<img src="assets/images/work/01.jpg" alt="Model A Media Video Thumbnail Merrimack College Campus Kitchen Project" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Merrimack College - Campus Kitchen Project</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				
+				<!-- Video - Mack gives back -->
+				<li data-category="video" class="video">
+					<a href="mackgivesback.html">
+						<img src="assets/images/work/02.jpg" alt="Model A Media Video Thumbnail Merrimack College Mack Gives Back" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Merrimack College Gives Back 2015</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Website - St. Thomas Elementary School -->
+				<li data-category="website" class="website">
+					<a href="stthomasschool.html">
+						<img src="assets/images/work/05.jpg" alt="Model A Media Web Development St. Thomas School Sanford Maine" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>St. Thomas School</h4>
+									<span>Web Design</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Website - Forbes Seafood Restaurant -->
+				<li data-category="website" class="website">
+					<a href="forbesseafood.html">
+						<img src="assets/images/work/07.jpg" alt="Model A Media Web Development Forbes Seafood Restaurant Wells Maine" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Forbes Seafood Restaurant</h4>
+									<span>Web Design</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Video - Merrimack College Block Party 2015 -->
+				<li data-category="video" class="video">
+					<a href="blockparty.html">
+						<img src="assets/images/work/08.jpg" alt="Model A Media Video Thumbnail Merrimack College Block Party" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Merrimack College Block Party 2015</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Video - Hands to Help 2015 -->
+				<li data-category="video" class="video">
+					<a href="handstohelp2015.html">
+						<img src="assets/images/work/09.jpg" alt="Model A Media Video Thumbnail Hands To Help" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Hands To Help 2015</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Video - Hands to Help 2017 -->
+				<li data-category="video" class="video">
+					<a href="handstohelp2017.html">
+						<img src="assets/images/work/10.jpg" alt="Model A Media Video Thumbnail Hands To Help" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Hands To Help 2017</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+
+				<!-- Video - Trick Shots/Ntgvids YouTube Channel -->
+				<li data-category="video" class="video">
+					<a href="https://www.youtube.com/ntgvids" target="_blank">
+						<img src="assets/images/work/11.jpg" alt="Model A Media Video Thumbnail Merrimack College Sports Trick Shots" />
+						<div class="portfolio-detail-overlay">
+							<div class="middle-align-wrap">
+								<div class="middle-align-cell">
+									<h4>Trick Shot Videos</h4>
+									<span>Videography</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div><!-- End of portfolio grid -->
+	</section> <!-- End of portfolio section -->
+	
+	<br/><br/>
+	
+	<!-- Call To Action -->
+	<div id="cta-2" class="cta-2 text-center">
+		<div class="container">
+			<span class="cta-text">Want to see all the projects we've done?</span>
+			<a class="btn btn-default-o-v2" href="portfolio.html">View all</a>
+		</div>
+	</div> <!-- End of call to action -->
+
+	<!-- Contact Section -->
+	<section id="contact" class="section contact">
+    	<div class="container">
+        	<header class="section-heading">
+            	<h2>Let's talk business</h2>
+            	<span>Get a response within 24 hours</span>
+			</header>
+			<div class="section-content">
+            	<div class="row">
+                	<div class="col-md-6 col-sm-5">
+                    	<h5>Feel free to drop us a line!</h5>
+                    	<form action="php/contact-form.php" class="contact-form" id="contactForm" method="post" name="contactform">
+							<div class="form-group">
+                            	<input class="form-control" id="name" name="name" placeholder="Your Name" type="text" required>
+                        	</div>
+                        	<div class="form-group">
+                            	<input class="form-control" id="email" name="email" placeholder="Email Address" type="email" required>
+                        	</div>
+                        	<div class="form-group">
+                            	<textarea class="form-control" id="message" name="massage" placeholder="Type your message here" rows="5" required></textarea>
+                        	</div>
+							<div id="contactFormResponse"></div>
+							<button id="cfsubmit" type="submit" class="btn btn-dark btn-block contact-submit">Give us a shout</button>
+                    	</form>
+                	</div>
+                	<div class="col-md-6 col-sm-7">
+						<h5>Find us on Google map</h5>
+						<div class="google-map">
+							<div id="map"></div>
+						</div>
+					
+						<!-- Script for Google Map -->
+						<script>
+						  function initMap() {
+							var uluru = {lat: 43.438272, lng: -70.7795686};
+							var map = new google.maps.Map(document.getElementById('map'), {
+							  zoom: 4,
+							  center: uluru
+							});
+							var marker = new google.maps.Marker({
+							  position: uluru,
+							  map: map
+							});
+						  }
+						</script>
+					
+						<div class="row contact-info-wrap">
+							<div class="col-sm-6">
+								<div>
+									<h5>Office Address</h5>
+									<address class="contact-info">
+										<span>Sanford, ME</span>
+									</address>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div>
+									<h5>Contact Information</h5>
+									<div class="contact-info">
+											modelamaine@gmail.com
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of contact-us -->
+
+<!-- Footer Widgets Section -->
+	<section id="footer-widgets" class="section footer-widgets dark-bg">
+    	<div class="container">
+        	<div class="row">
+				<div class="col-md-3 col-sm-6">
+                	<div class="content-wrap widget-text"></div>
+            	</div>
+            	<div class="col-md-3 col-sm-6">
+                	<div class="content-wrap widget-contact">
+                    	<h4>Contact info</h4>
+                    	<ul>
+                        	<li>
+                            	<i class="ion-ios-location"></i> Sanford, Maine
+							</li>
+							<li>
+								<i class="ion-email"></i> modelamaine@gmail.com
+							</li>
+						</ul>
+                	</div>
+            	</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="content-wrap widget-recent-posts">
+						<h4>Recent Projects</h4>
+						<ul>
+							<li>
+								<a href="handstohelp2017.html" class="post-title">Hands To Help 2017</a>
+							</li>
+							<li>
+								<a href="http://www.youtube.com/ntgvids" target="_blank" class="post-title">Merrimack College Lawler Rink Trick Shots</a>
+							</li>
+							<li>
+								<a href="http://www.youtube.com/ntgvids" target="_blank" class="post-title">Merrimack College Soccer Trick Shots</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- End of footer widgets -->
+	
+	<!-- Footer -->
+	<footer id="footer" class="footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-3 col-sm-4">
+					<p class="copyright text-xs-center">&copy; 2017 by MODEL-A MEDIA</p>
+				</div>
+
+				<div class="col-md-5 col-sm-4">
+					<ul class="footer-social-block">
+						<li>
+							<a href="https://www.facebook.com/ntgvids/" target="_blank"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/ntgvids" target="_blank"><i class="fa fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer> <!-- End of footer -->
+
+	<a id="totop" href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	
+	<!-- Javascript Files -->
+	<script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/lib/isotope/dist/isotope.pkgd.min.js"></script>
+	<script src="assets/lib/owlcarousel/owl-carousel/owl.carousel.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtBlRVusqXidgWqZ7q5Pca_bAowjwMcLM&callback=initMap"></script>
+	<script src="assets/lib/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="assets/lib/waypoints/lib/shortcuts/inview.min.js"></script>
+	<script src="assets/lib/FlexSlider/jquery.flexslider.js"></script>
+	<script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.js"></script>
+	<script src="assets/lib/jquery.mb.YTPlayer/dist/jquery.mb.YTPlayer.min.js"></script>
+	<script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
